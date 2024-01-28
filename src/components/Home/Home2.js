@@ -19,37 +19,24 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            As a computer science student, I have always been fascinated by the inner workings of computers. Initially, I saw computers as tools to assist me with my schoolwork, but as I began using various apps and websites for studying, I couldn't help but wonder how they were built and why they sometimes malfunctioned. The more I used applications, the more ideas for improvement sparked in my mind, fueling my determination to apply my creative inspirations to enhance these programs.
+
               <br />
-              <br />I am fluent in classics like
+              <br />Fortunately, I found guidance from my dad, a talented computer programmer, who enlightened me by saying, "It all boils down to programming and maintenance." With those words, my endless journey into the world of software development began, driven by a deep desire to explore and fulfill my passion.
+
               <i>
                 <b className="purple"> C++, Javascript and Go. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Today, as a software developer, I thrive on solving complex problems and meticulously maintaining the implementation of robust solutions. Leveraging my skills, I collaborate with management, departments, and customers to identify end-user requirements and specifications, ensuring the development of tailored solutions that meet their needs. 
+            &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              If you're interested in working with a motivated and dedicated software developer who is eager to make a difference, I would love to connect and explore potential opportunities.
+ <b className="purple">Node.js</b> a
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +54,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/KhaledAShaheen?tab=repositories"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,34 +62,15 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/khaledshaheen1/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
