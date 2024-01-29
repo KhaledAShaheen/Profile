@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import pdf from "../../Assets/../Assets/KhaledAYShaheenResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
+import Col from 'react-bootstrap/Col';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -55,22 +56,37 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+        <Row className="prevNext">
+          
+        <Col xs={6} className="text-end">
+        <Button
             variant="primary"
             onClick={prevPage}
             disabled={pageNumber <= 1}
-            style={{ marginRight: "10px" }}
+            style={{ width: '150px', marginBottom: '40px' }}
+
           >
-            Previous
+          Previous
+          
           </Button>
-          <Button
+        </Col>
+        <Col xs={6} className="text-start">
+        <Button
             variant="primary"
             onClick={nextPage}
             disabled={pageNumber >= numPages}
+            style={{ width: '150px', marginBottom: '40px' }}
+
           >
-            Next
+          Next
           </Button>
+        </Col>
+          
+          
+        </Row>
+
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+         
           <Button
             variant="primary"
             href={pdf}
