@@ -25,7 +25,6 @@ function Home2() {
               <br />Fortunately, I found guidance from my dad, a talented computer programmer, who enlightened me by saying, "It all boils down to programming and maintenance." With those words, my endless journey into the world of software development began, driven by a deep desire to explore and fulfill my passion.
 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
               </i>
               <br />
               <br />
@@ -36,7 +35,6 @@ function Home2() {
               <br />
               <br />
               If you're interested in working with a motivated and dedicated software developer who is eager to make a difference, I would love to connect and explore potential opportunities.
- <b className="purple">Node.js</b> a
             </p>
           </Col>
           <Col md={4} className="myAvtar">
