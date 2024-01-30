@@ -743,3 +743,19 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+
+
+/*       extra         */
+
+
+.centered-container {
+  background-color: #4B9CD3;
+  display: flex;
+  color: whitesmoke;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Set height to 100% of the viewport height for vertical centering */
+}
