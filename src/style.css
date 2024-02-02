@@ -261,7 +261,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .home-content {
@@ -318,7 +318,7 @@ button:focus {
 }
 
 .home-about-section {
-  background-color: #4B9CD3;
+  background-color:#4682B4;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
@@ -547,8 +547,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: black !important;
 }
 
 .tech-icons {
@@ -584,7 +583,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: #4169E1 !important;
   background-color: transparent !important;
 }
 
