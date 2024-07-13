@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Home2 from "./Home2";
 import Type from "./Type";
+import myImg from "../../Assets/coding.png";
 
 function Home() {
   return (
@@ -19,17 +20,20 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> sams club Shaheen</strong>
+                <strong className="main-name"> Khaled Shaheen</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              
+            <Col md={5}>
+            <img src={myImg} alt="Coding Cartoon" className="img-fluid rounded-circle" />
+
             </Col>
+
           </Row>
         </Container>
       </Container>

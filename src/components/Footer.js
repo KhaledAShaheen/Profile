@@ -24,7 +24,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/KhaledAShaheen?tab=repositories"
-                style={{ color: "white" }}
+                style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/khaledshaheen1/"
-                style={{ color: "white" }}
+                style={{ color:  '#0077B5' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

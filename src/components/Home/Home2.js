@@ -9,16 +9,24 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
+
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Card className="hover-card" style={{ width: '50rem', backgroundColor:'whitesmoke' }}>
+            <Card.Body>
+              <Card.Title> <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
+              </h1>
+              </Card.Title>
+              <Card.Text>
+              <p className="home-about-body">
             As a computer science student, I have always been fascinated by the inner workings of computers. Initially, I saw computers as tools to assist me with my schoolwork, but as I began using various apps and websites for studying, I couldn't help but wonder how they were built and why they sometimes malfunctioned. The more I used applications, the more ideas for improvement sparked in my mind, fueling my determination to apply my creative inspirations to enhance these programs.
 
               <br />
@@ -36,7 +44,9 @@ function Home2() {
               <br />
               If you're interested in working with a motivated and dedicated software developer who is eager to make a difference, I would love to connect and explore potential opportunities.
             </p>
-          </Col>
+              </Card.Text>
+            </Card.Body>
+          </Card>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -50,6 +60,7 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+
               <li className="social-icons">
                 <a
                   href="https://github.com/KhaledAShaheen?tab=repositories"
@@ -71,7 +82,9 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
             </ul>
+            
           </Col>
         </Row>
       </Container>
