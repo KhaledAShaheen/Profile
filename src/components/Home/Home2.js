@@ -19,7 +19,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Card className="hover-card" style={{ width: '50rem', backgroundColor:'whitesmoke' }}>
+          <Card className="hover-card" style={{ width: '45rem', backgroundColor:'whitesmoke' }}>
             <Card.Body>
               <Card.Title> <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
