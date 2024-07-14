@@ -20,13 +20,13 @@ function Project() {
       images: [login],
       title: "Transportation Events Visualization Web App",
       description: "Developed a dynamic web application that efficiently visualizes and analyzes individual movement patterns. This geospatial project integrated a frontend built with JavaScript and a backend powered by Flask, alongside PostgreSQL with spatial extensions. The application allows users to interact with and explore transportation events in real-time, providing valuable geospatial insights into movement data through a user-friendly interface.",
-      github: "https://github.com/KhaledAShaheen/Project2"
+      github: "https://github.com/KhaledAShaheen/Transportation-Events-"
     },
     {
       images: [login],
       title: "AI Doctor",
       description: "Created an AI-powered Doctor Chatbot capable of engaging in conversations about medical terms. This project involved fine-tuning a pre-trained language model, Llama 2 by Meta, using Hugging Face. The chatbot leverages advanced natural language processing techniques to provide accurate and informative responses, enhancing user experience by offering reliable medical information in a conversational manner.",
-      github: "https://github.com/KhaledAShaheen/Project3"
+      github: "https://github.com/KhaledAShaheen/Medical-Fine-Tunned-LLM-Chatgpt-"
     },
     
   ];
@@ -35,7 +35,7 @@ function Project() {
       <Row>
         {cards.map((card, index) => (
           <Col key={index} md={4} className="mb-4">
-            <Card className='hover-card' id="projectSection" >
+            <Card  className='hover-card shadow-lg my-3' id="projectSection" >
               <Carousel>
                 {card.images.map((image, imgIndex) => (
                   <Carousel.Item key={imgIndex}>
@@ -49,7 +49,7 @@ function Project() {
               </Carousel>
               <Card.Body>
                 <Card.Title id='title'>{card.title}</Card.Title>
-                <Card.Text>{card.description}</Card.Text>
+                <Card.Text className="center-align">{card.description}</Card.Text>
                 <a
                   href={card.github}
                   style={{ color: "black" }}
@@ -63,6 +63,9 @@ function Project() {
           </Col>
         ))}
       </Row>
+      <header className="custom-header">
+        <h1 className="custom-header-text">Click me to view more cool projects!</h1>
+      </header>    
     </Container>
   );
 }
